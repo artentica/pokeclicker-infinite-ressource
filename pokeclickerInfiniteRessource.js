@@ -1,13 +1,13 @@
 // ==UserScript==
 // @name        [Pokeclicker] Add ressource
-// @namespace   Pokeclicker Scripts
-// @match       https://www.pokeclicker.com/
-// @grant       none
+// @namespace   http://tampermonkey.net/
 // @version     1.0.0
-// @author      Artentica
 // @description Adds buttons to allow ressources to be added (dungeon token, money, quest token or refill energy in the underground).
+// @author      Artentica
+// @match       https://www.pokeclicker.com/
+// @icon         https://www.google.com/s2/favicons?sz=64&domain=pokeclicker.com
+// @grant       none
 // ==/UserScript==
-
 
 let autoRefillEnergyUnderground,
     autoRefillEnergyUndergroundState,
